@@ -85,7 +85,7 @@ def fill_pdf_template(template_path, output_path, teams, stopAt=99):
         message.drawOn(can, x, y)
 
         # team
-        teamFont = TEAM_NAME_FONT['name'] # prev: 'Helvetica-Bold'
+        teamFont = TEAM_NAME_FONT['name']
         teamSize = 28
 
         x = 6.5*inch
